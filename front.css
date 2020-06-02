@@ -1,0 +1,138 @@
+h1{
+	font-size: 30px;
+	font-family: small-caps;
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 30%;
+  margin-right: 20%;
+  display: block;
+  color: #FFFFFF;
+
+}
+span{
+	font-size: 15px;
+}
+a{
+	font-size: 25px;
+	margin-top: 120px;
+	text-align: center;
+	margin-left: 50%;
+	text-decoration: none;
+  color:black;
+}
+div{ 
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  color: black;
+  
+}
+.vertical-menu {
+  width: 300px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+}
+.dropbtn {
+  position: fixed;
+  background-color: #52C1BC;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #52C1BC;
+  min-width: 200px;
+  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  margin-left: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color:#52C1BC;
+  text-decoration: none;
+  display: block;
+  
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color:#3e8e41;}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+input{
+  
+  background-color:lightblue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+nav a:hover{
+  font-size: 40px;
+  transition: 1s;
+  background-color: #52C1BC;
+  color:black;
+  border-radius: 15%;
+}
+nav a{
+  margin-left: 50%;
+
+  background-color: #FFFFFF;
+
+}
+b{
+  margin-left:40%;
+  margin-right: 30%;
+  display:inline-block;
+  color: #FFFFFF;
+}
